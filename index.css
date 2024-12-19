@@ -1,0 +1,128 @@
+HTML {
+  height: 100%;
+  width: 100%;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  background-color: pink;
+  text-decoration: none;
+  padding: 30px;
+  margin: o%;
+}
+
+.star{
+  text-decoration: none;
+  font-size: 16px;
+  color: #0044cc;
+}
+
+.plan1{
+  background-color: #f5f5f5;
+  width: 20%;
+  text-align: center;
+  padding: 25px;
+  margin: 20px
+}
+.info{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #6d6d6d6;
+}
+
+h1{
+  color: #333333;
+  font-size: 27px;
+  text-align: center; 
+}
+
+.boton{
+  background-color: #ff0080;
+  border-radius: 20px;
+  padding: 6px;
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+}
+
+.price{
+  font-size: 23px;
+  color: #0044cc;
+}
+
+.info{
+  font-size: 10px; 
+}
+.contenedor{
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  margin-top: 45px;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.plan1{
+  padding-top: 30px
+  margin-top: 30px;
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px; 
+}
+
+.titulo{
+ text-align: center;
+  font-family: montserrat;
+  font-size: 30px;
+  margin: 105px 10px 5px 10px;
+  color: #333333;
+  
+}
+
+hr{
+  border: 1px, solid black;
+  
+}
+
+@media screen and (max-width: 768px){
+  .plan1{
+  background-color: #f5f5f5;
+  width: 20%;
+  text-align: center;
+  padding: 20px;
+  margin: 25px;
+  }
+
+  .plan1{
+  padding-top: 30px
+  margin-top: 30px;
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
+  }
+  
+  section{
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  .boton{
+  background-color: #ff0080;
+  border-radius: 20px;
+  padding: 6px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  }
+
+  h1{
+  color: #333333;;
+  font-size: 16px;
+  text-align: center;
+  }

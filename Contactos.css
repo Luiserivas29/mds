@@ -1,0 +1,66 @@
+html,body{
+  padding: 0;
+  margin: 0;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  background-color: pink;
+  text-decoration: none;
+  padding: 30px;
+  margin: o%;
+}
+
+.star{
+  text-decoration: none;
+  font-size: 16px;
+  color: #0044cc;
+}
+
+.container{
+  /*background-color: pink;*/
+  margin-top: 30px;
+}
+.anclas
+  /*background-color: red;*/
+  margin: 25px;
+  padding: 10px;
+  
+}
+
+.redes{
+  /*background-color: pink;*/
+  /*justify-content: space-between;*/
+  margin: 25px;
+  padding: 55px;
+}
+
+.redes{
+  position: relative;
+  /*display: flex;*/
+  left: 23;
+}
+
+.texto{
+  /*background-color: blue;*/
+  margin: 25 10px 10px 10px;
+  padding: 55px;
+}
+
+.titulo{
+  /*background-color: orange;*/
+  text-align: center;
+  }
+
+@media screen and (max-width: 768px){
+  .redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 2%;
+  }
+}
+
+
